@@ -1,0 +1,14 @@
+Minuta No. 725.- Actividades del Departamento de Infraestructura de Redes y Servicios de Telemática (JUNIO 2020)
+Dependencia: Coordinación General de Tecnologías de Información y Comunicación
+Participantes
+1.-Osorno Herrera Fernando Jafet(fernando.osorno)
+2.-Serrano Piña Emmanuel
+3.-Rico Blanco Carlos
+4.-Arroyo Herrera Ángel Andrés
+5.-Novelo Zel Israel Josué
+6.-Díaz Novelo Carmen H. de Jesús
+Orden del Día
+Proxima Reunión
+
+Acuerdo: Documentar en la minuta de Grafana:
+-Verificación de perfiles de usuario de Grafana

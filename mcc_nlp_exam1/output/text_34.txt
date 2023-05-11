@@ -1,0 +1,32 @@
+Minuta No. 679.- Supervisión a Mantenimientos de ISP Bestel 2020
+Dependencia: Coordinación General de Tecnologías de Información y Comunicación
+Participantes
+1.-Serrano Piña Emmanuel(spina)
+2.-Novelo Zel Israel Josué
+3.-Rico Blanco Carlos
+Orden del Día
+Proxima Reunión
+
+Acuerdo: Asunto: NOTIFICACION VENTANA DE MANTENIMIENTO CRQ000000178347
+
+Junio 18, 2020
+ 
+UADY
+ 
+Asunto: Ventana de Mantenimiento.
+ 
+Por medio de la presente les informamos la realización de una Ventana de Mantenimiento Mandatoria, con número de referencia: Folio  CRQ000000178347.
+                                                                                               
+Objetivo de la ventana: Se realizara reparación de fibra óptica dañada por mordedura de roedor, en enlace Minatitlán – Coatzacoalcos.
+ 
+Fecha y hora de la Ventana: 24 Junio del 2020, 07:00 a.m. @ 13:00 p.m. Hora Centro
+Se solicita este horario debido a la inseguridad en la zona.
+ 
+Tiempo de interrupción: NINGUNO, SUS SERVICIOS NO SE VERÁN AFECTADOS, sin embargo podrán registrar conmutaciones en el periodo de la VM.
+ 
+Servicios involucrados:
+ 
+11521-INT-003           100/INTF/3049314297MRDAYU003
+11521-INT-004           100/INTF/3049314297MRDAYU002
+11521-INT-002           100/INTF/3049314297MRDAYU004
+11521-INT-008           101/INTF/3049314297MRDAYU005

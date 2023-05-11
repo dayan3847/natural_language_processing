@@ -1,0 +1,4 @@
+la contraseña de mi correo no es aceptada ya es la segunda ocasión que se bloquea y no puedo ingresar  
+
+cel. $phone$
+correo: $email$

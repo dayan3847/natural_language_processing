@@ -1,0 +1,11 @@
+minuta no. 731.- actividades del departamento de seguridad informática (junio 2020)
+dependencia: coordinación general de tecnologías de información y comunicación
+participantes
+1.-$person$($username$)
+2.-$person$
+3.-$person$
+orden del día
+proxima reunión
+
+acuerdo: estimada $person$:
+se solicita su amable apoyo para la aplicación de permisos de acceso desde internet al monitor salud

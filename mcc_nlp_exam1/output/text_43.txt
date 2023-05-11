@@ -1,0 +1,3 @@
+%18``Al querer generar recibo honorarios asimilables en el SII-CITRIX  la aplicación se queda leyendo, quisiera saber si existe alguna restricción.
+
+[MDS] Este servicio fue ingresado por la Mesa de Servicios de la CGTIC toda vez que el usuario ha emitido su reporte a través de correo electrónico o por teléfono. ``

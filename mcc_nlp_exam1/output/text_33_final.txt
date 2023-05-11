@@ -1,0 +1,29 @@
+minuta no. 679.- supervisión a mantenimientos de isp bestel 2020
+dependencia: coordinación general de tecnologías de información y comunicación
+participantes
+1.-$person$(spina)
+2.-$person$
+3.-$person$
+orden del día
+proxima reunión
+
+acuerdo: junio 22, 2020
+ 
+universidad autonoma de yucatan
+ 
+$person$: ventana de mantenimiento.
+ 
+por medio de la presente les informamos la realización de una ventana de mantenimiento, con número de referencia: $person$
+ 
+objetivo de la ventana: encontrar atenuación que presenta el enlace malpaso – cardenas, por lo que se realizaran trazas de otdr, limpieza de fibras y puertos o en su defecto reemplazo de jumpers y/o $person$. 
+ 
+fecha y hora de la ventana: 27 junio del 2020, 07:00 a.m. @ 13:00 p.m. hora centro
+se requiere este horario debido a la inseguridad en la zona.
+ 
+tiempo de interrupción: ninguno, sus servicios no se verán afectados, sin embargo podrán registrar conmutaciones en el periodo de la vm.
+ 
+servicios involucrados:
+ 
+11521-$person$-003	100/$person$f/3049314297mrdayu003
+11521-$person$-004	100/$person$f/3049314297mrdayu002
+11521-$person$-002	100/$person$f/3049314297mrdayu004

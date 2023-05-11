@@ -1,0 +1,17 @@
+minuta no. 771.- apoyo a evento "sesión extraordinaria xviii consejo universitario"
+dependencia: coordinación general de tecnologías de información y comunicación
+participantes
+1.-$person$($username$)
+2.-$person$
+3.-$person$
+4.-$person$
+5.-$person$
+6.-$person$ 
+7.-$person$
+8.-$person$
+orden del día
+proxima reunión
+
+acuerdo: por este medio se solicita crear una sesion en zoom para la "sesión extraordinaria xviii consejo universitario", en caso de que falle en servicio teams.
+
+fecha: martes 30 junio a las 9:00 am

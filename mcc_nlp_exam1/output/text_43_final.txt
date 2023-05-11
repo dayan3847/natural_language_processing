@@ -1,0 +1,3 @@
+al querer generar recibo honorarios asimilables en el sii-citrix  la aplicación se queda leyendo, quisiera saber si existe alguna restricción.
+
+[mds] este servicio fue ingresado por la mesa de servicios de la cgtic toda vez que el usuario ha emitido su reporte a través de correo electrónico o por teléfono. 
