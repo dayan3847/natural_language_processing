@@ -1,0 +1,5 @@
+Soy estudiante de maestría de una universidad de México.
+Me gusta mucho este país, y me gustaría vivir aquí.
+Roberto Fernandez es mi amigo, y me dijo que podría conseguir un trabajo en una empresa de software.
+Estoy en el curso de Procesamiento de Lenguaje Natural.
+Aprendimos a usar la biblioteca Freeling
