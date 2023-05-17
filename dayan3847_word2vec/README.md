@@ -10,6 +10,10 @@
 
 # Word2vec
 
-## Code
+## Alice
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dayan3847/natural_language_processing/blob/master/dayan3847_word2vec/colab/alice.ipynb)
+
+## Dictionary
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dayan3847/natural_language_processing/blob/master/dayan3847_word2vec/colab/dictionary.ipynb)
