@@ -88,6 +88,30 @@ de documentos etiquetados y se utiliza para asignar una etiqueta a un nuevo docu
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dayan3847/natural_language_processing/blob/master/dayan3847/task_final/spam_detection_doc2vec.ipynb)
 
+## Desarrollo futuro
+
+El futuro de Doc2vec es prometedor y se espera que desempeñe un papel importante en el avance del procesamiento del 
+lenguaje natural (NLP). A continuación, se presentan brevemente algunas perspectivas futuras y áreas de investigación 
+relacionadas con Doc2vec:
+
+- **Mejoras en la arquitectura:** puede incluir variantes de la arquitectura, como la incorporación de mecanismos de 
+atención o la exploración de técnicas de aprendizaje profundo más avanzadas.
+- **Incorporación de conocimiento externo:** los enfoques para integrar conocimientos externos, como bases de conocimientos
+o ontologías, en los modelos Doc2vec pueden mejorar la capacidad de los modelos para capturar la semántica y el contexto 
+de manera más precisa y enriquecida.
+- **Transferencia de aprendizaje:** nuevas tecnicas implica utilizar modelos pre-entrenados en conjuntos de datos grandes 
+y luego ajustarlos o aplicarlos a tareas de NLP específicas con conjuntos de datos más pequeños.
+- **Interpretabilidad de los resultados:**  implica desarrollar métodos y técnicas que permitan comprender mejor cómo se 
+representan y relacionan los documentos en el espacio vectorial, lo que facilitaría la confianza y la adopción de 
+estos modelos en aplicaciones del mundo real.
+- **Incorporación de información multimodal:** se están investigando enfoques para incorporar información multimodal, como 
+imágenes y audio, en los modelos Doc2vec. Esto permitiría una representación conjunta de diferentes tipos de datos, 
+lo que abriría nuevas posibilidades en tareas de NLP multimodal.
+
+A medida que el campo de NLP evoluciona, se espera que Doc2vec se beneficie de avances en técnicas de 
+aprendizaje automático, datos más grandes y diversas aplicaciones en áreas como la traducción automática, el análisis 
+de sentimientos y la generación de lenguaje natural.
+
 ## Referencias
 
 - https://arxiv.org/abs/1405.4053 (Doc2vec, Quoc V. Le, Tomas Mikolov, 2014)
