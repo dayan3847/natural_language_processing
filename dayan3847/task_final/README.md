@@ -30,9 +30,9 @@ Doc2vec es una técnica de procesamiento de lenguaje natural que se basa en Word
 representaciones numéricas de documentos. 
 
 ## Arquitectura
-Como sabes, las palabras mantienen una estructura lógica (gramatical), pero
+Las palabras mantienen una estructura lógica (gramatical), pero
 los documentos no tienen ninguna estrutura lógica. Para solucionar este problema, se
-necesita agregar otro vector (ID de párrafo) al modelo de Word2vec. Esta es la única diferencia entre
+necesita agregar otro vector (ID de párrafo) al modelo de Word2vec. Esta es la principal diferencia entre
 Word2vec y Doc2vec.
 
 Al igual que Word2vec, existen dos variantes de Doc2vec disponibles:
