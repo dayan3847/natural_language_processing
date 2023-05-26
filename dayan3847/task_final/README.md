@@ -18,6 +18,37 @@ https://github.com/dayan3847/natural_language_processing
 
 Bidirectional Encoder Representations from Transformers
 
+Los modelos BERT ayudan a las máquinas a comprender e interpretar el significado del texto. Utiliza el texto
+inmediatamente anterior para comprender el contexto. También verifica las relaciones de las palabras dentro de una
+oración para dar el significado real de las palabras.
+
+BERT luego convertirá una oración dada en un vector de incrustación. El vector de incrustación se utiliza para
+representar las palabras únicas en un documento determinado. BERT asegura que las palabras con el mismo significado
+tendrán una representación similar.
+
+El aprendizaje automático no funciona con texto, pero funciona bien con números. Es por eso que BERT convierte el texto
+de entrada en vectores embedding. Los vectores embedding son números con los que el modelo puede trabajar
+fácilmente.
+
+El proceso BERT pasa por dos etapas: preprocesamiento y codificación.
+
+## Preprocesamiento
+
+El preprocesamiento es la primera etapa en BERT. Esta etapa consiste en eliminar el ruido de nuestro conjunto de datos.
+En esta etapa, BERT limpiará el conjunto de datos. También elimina los registros duplicados del conjunto de datos.
+
+También formateará el conjunto de datos para que pueda ser fácil de usar durante el entrenamiento del modelo. Esto
+aumentará el rendimiento del modelo.
+
+## Codificación
+Debido a que el aprendizaje automático no funciona bien con el texto, necesitamos convertir el texto en números reales.
+Este proceso se conoce como codificación. BERT convertirá una oración dada en un embedding vector
+
+## Referencias
+
+- https://ichi.pro/es/explicacion-e-implementacion-paso-a-paso-de-bert-parte-1-preprocesamiento-241867215631106
+-
+
 ## Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dayan3847/natural_language_processing/blob/master/dayan3847/task_final/spam_detection_bert.ipynb)
@@ -27,9 +58,10 @@ Bidirectional Encoder Representations from Transformers
 ## ¿Qué es Doc2vec?
 
 Doc2vec es una técnica de procesamiento de lenguaje natural que se basa en Word2vec y se utiliza para crear
-representaciones numéricas de documentos. 
+representaciones numéricas de documentos.
 
 ## Arquitectura
+
 Las palabras mantienen una estructura lógica (gramatical), pero
 los documentos no tienen ninguna estrutura lógica. Para solucionar este problema, se
 necesita agregar otro vector (ID de párrafo) al modelo de Word2vec. Esta es la principal diferencia entre
@@ -37,46 +69,50 @@ Word2vec y Doc2vec.
 
 Al igual que Word2vec, existen dos variantes de Doc2vec disponibles:
 
-- **Modelo de Memoria Distribuida de Vectores de Párrafo (PV-DM):** Este modelo es similar al modelo 
-Continuous-Bag-of-Words (CBOW) de Word2vec, que intenta adivinar la palabra de salida (palabra objetivo) a partir de 
-las palabras vecinas (palabras de contexto) con la adición de un ID de párrafo.
-- **Modelo de Bolsa de Palabras Distribuida (PV-DBOW):** Este modelo es similar al modelo Skip-Gram de Word2vec, que 
-adivina las palabras de contexto a partir de una palabra objetivo.
+- **Modelo de Memoria Distribuida de Vectores de Párrafo (PV-DM):** Este modelo es similar al modelo
+  Continuous-Bag-of-Words (CBOW) de Word2vec, que intenta adivinar la palabra de salida (palabra objetivo) a partir de
+  las palabras vecinas (palabras de contexto) con la adición de un ID de párrafo.
+- **Modelo de Bolsa de Palabras Distribuida (PV-DBOW):** Este modelo es similar al modelo Skip-Gram de Word2vec, que
+  adivina las palabras de contexto a partir de una palabra objetivo.
 
 ## Entrenamiento de los modelos
 
-El proceso de entrenamiento de los modelos Doc2vec implica aprender a asociar los documentos con sus contextos o 
-documentos vecinos. A medida que se ajustan los vectores durante el entrenamiento, las representaciones vectoriales 
+El proceso de entrenamiento de los modelos Doc2vec implica aprender a asociar los documentos con sus contextos o
+documentos vecinos. A medida que se ajustan los vectores durante el entrenamiento, las representaciones vectoriales
 de los documentos se vuelven más precisas y útiles para diversas tareas de procesamiento del lenguaje natural.
 
 ### Proceso de entrenamiento
+
 - **Preparación de datos**: Cada documento se representa como una secuencia de palabras o tokens.
 - **Construcción de vocabulario:** Cada palabra se asigna a un identificador numérico único.
-- **Creación de instancias de entrenamiento:** Se crean instancias de entrenamiento para el modelo Doc2vec. 
-Cada instancia se compone de un documento y un contexto.
-- **Inicialización de vectores de palabras y documentos:** Cada vector tiene una dimensión fija y representa una posición 
-en un espacio vectorial.
-- **Entrenamiento del modelo:** Se entrena el modelo utilizando técnicas de aprendizaje automático, como redes neuronales. 
-Durante el entrenamiento, los vectores de palabras y documentos se ajustan de manera iterativa para maximizar la 
-coherencia entre los documentos y su contexto.
-- **Generación de representaciones vectoriales:** Se obtienen las representaciones vectoriales de los documentos. 
-Estos vectores capturan la información semántica y contextual de los documentos en el espacio vectorial.
+- **Creación de instancias de entrenamiento:** Se crean instancias de entrenamiento para el modelo Doc2vec.
+  Cada instancia se compone de un documento y un contexto.
+- **Inicialización de vectores de palabras y documentos:** Cada vector tiene una dimensión fija y representa una
+  posición
+  en un espacio vectorial.
+- **Entrenamiento del modelo:** Se entrena el modelo utilizando técnicas de aprendizaje automático, como redes
+  neuronales.
+  Durante el entrenamiento, los vectores de palabras y documentos se ajustan de manera iterativa para maximizar la
+  coherencia entre los documentos y su contexto.
+- **Generación de representaciones vectoriales:** Se obtienen las representaciones vectoriales de los documentos.
+  Estos vectores capturan la información semántica y contextual de los documentos en el espacio vectorial.
 
 ## Aplicaciones
 
-Doc2vec se utiliza en una variedad de aplicaciones de procesamiento de lenguaje natural (NLP) y el analisis de texto, 
+Doc2vec se utiliza en una variedad de aplicaciones de procesamiento de lenguaje natural (NLP) y el analisis de texto,
 como:
-- **Clasificación de documentos:** Doc2vec se puede utilizar para asignar automáticamente etiquetas o categorías a 
-documentos. Al capturar la similitud semántica entre los textos, permite entrenar modelos de clasificación que pueden 
-asignar las etiquetas adecuadas a nuevos documentos.
 
-- **Agrupación de documentos:** Doc2vec se puede aplicar en sistemas de búsqueda y recuperación de información. 
-Los embeddings generados por Doc2vec ayudan a encontrar documentos relevantes basados en la similitud semántica, 
-lo que mejora la precisión y relevancia de los resultados de búsqueda.
+- **Clasificación de documentos:** Doc2vec se puede utilizar para asignar automáticamente etiquetas o categorías a
+  documentos. Al capturar la similitud semántica entre los textos, permite entrenar modelos de clasificación que pueden
+  asignar las etiquetas adecuadas a nuevos documentos.
 
-- **Recuperación de información:** Con Doc2vec, se pueden construir sistemas de búsqueda y recuperación de información 
-más efectivos. Al utilizar los embeddings generados por Doc2vec, es posible representar los documentos en un espacio 
-vectorial donde la proximidad entre los vectores refleja la similitud semántica entre los textos.
+- **Agrupación de documentos:** Doc2vec se puede aplicar en sistemas de búsqueda y recuperación de información.
+  Los embeddings generados por Doc2vec ayudan a encontrar documentos relevantes basados en la similitud semántica,
+  lo que mejora la precisión y relevancia de los resultados de búsqueda.
+
+- **Recuperación de información:** Con Doc2vec, se pueden construir sistemas de búsqueda y recuperación de información
+  más efectivos. Al utilizar los embeddings generados por Doc2vec, es posible representar los documentos en un espacio
+  vectorial donde la proximidad entre los vectores refleja la similitud semántica entre los textos.
 - **Clasificacion**
 
 ### Clasificación
@@ -90,26 +126,30 @@ de documentos etiquetados y se utiliza para asignar una etiqueta a un nuevo docu
 
 ## Desarrollo futuro
 
-El futuro de Doc2vec es prometedor y se espera que desempeñe un papel importante en el avance del procesamiento del 
-lenguaje natural (NLP). A continuación, se presentan brevemente algunas perspectivas futuras y áreas de investigación 
+El futuro de Doc2vec es prometedor y se espera que desempeñe un papel importante en el avance del procesamiento del
+lenguaje natural (NLP). A continuación, se presentan brevemente algunas perspectivas futuras y áreas de investigación
 relacionadas con Doc2vec:
 
-- **Mejoras en la arquitectura:** puede incluir variantes de la arquitectura, como la incorporación de mecanismos de 
-atención o la exploración de técnicas de aprendizaje profundo más avanzadas.
-- **Incorporación de conocimiento externo:** los enfoques para integrar conocimientos externos, como bases de conocimientos
-o ontologías, en los modelos Doc2vec pueden mejorar la capacidad de los modelos para capturar la semántica y el contexto 
-de manera más precisa y enriquecida.
-- **Transferencia de aprendizaje:** nuevas tecnicas implica utilizar modelos pre-entrenados en conjuntos de datos grandes 
-y luego ajustarlos o aplicarlos a tareas de NLP específicas con conjuntos de datos más pequeños.
-- **Interpretabilidad de los resultados:**  implica desarrollar métodos y técnicas que permitan comprender mejor cómo se 
-representan y relacionan los documentos en el espacio vectorial, lo que facilitaría la confianza y la adopción de 
-estos modelos en aplicaciones del mundo real.
-- **Incorporación de información multimodal:** se están investigando enfoques para incorporar información multimodal, como 
-imágenes y audio, en los modelos Doc2vec. Esto permitiría una representación conjunta de diferentes tipos de datos, 
-lo que abriría nuevas posibilidades en tareas de NLP multimodal.
+- **Mejoras en la arquitectura:** puede incluir variantes de la arquitectura, como la incorporación de mecanismos de
+  atención o la exploración de técnicas de aprendizaje profundo más avanzadas.
+- **Incorporación de conocimiento externo:** los enfoques para integrar conocimientos externos, como bases de
+  conocimientos
+  o ontologías, en los modelos Doc2vec pueden mejorar la capacidad de los modelos para capturar la semántica y el
+  contexto
+  de manera más precisa y enriquecida.
+- **Transferencia de aprendizaje:** nuevas tecnicas implica utilizar modelos pre-entrenados en conjuntos de datos
+  grandes
+  y luego ajustarlos o aplicarlos a tareas de NLP específicas con conjuntos de datos más pequeños.
+- **Interpretabilidad de los resultados:**  implica desarrollar métodos y técnicas que permitan comprender mejor cómo se
+  representan y relacionan los documentos en el espacio vectorial, lo que facilitaría la confianza y la adopción de
+  estos modelos en aplicaciones del mundo real.
+- **Incorporación de información multimodal:** se están investigando enfoques para incorporar información multimodal,
+  como
+  imágenes y audio, en los modelos Doc2vec. Esto permitiría una representación conjunta de diferentes tipos de datos,
+  lo que abriría nuevas posibilidades en tareas de NLP multimodal.
 
-A medida que el campo de NLP evoluciona, se espera que Doc2vec se beneficie de avances en técnicas de 
-aprendizaje automático, datos más grandes y diversas aplicaciones en áreas como la traducción automática, el análisis 
+A medida que el campo de NLP evoluciona, se espera que Doc2vec se beneficie de avances en técnicas de
+aprendizaje automático, datos más grandes y diversas aplicaciones en áreas como la traducción automática, el análisis
 de sentimientos y la generación de lenguaje natural.
 
 ## Referencias
